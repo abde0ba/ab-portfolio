@@ -27,7 +27,7 @@ export default function Home() {
   const [mInput, setMInput] = useState('');
   const api = 'https://abde-ba-messages.glitch.me/';
   
-  
+ 
   const handleMessage = async () => {
     try{
     if(nInput === "" || eInput === "" || mInput === ""){
@@ -78,7 +78,8 @@ export default function Home() {
         <Script
           src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
           crossorigin></Script>
-          
+
+
       <Layout>
       <div>
         <div className='hero-section'>

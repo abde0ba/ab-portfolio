@@ -111,6 +111,9 @@ a {
 }
 .navbar {
   background-color: transparent !important;
+  backdrop-filter: blur(15px) brightness(30%) saturate(70%);
+  -webkit-backdrop-filter: blur(15px);
+  opacity: 1;
   
 }
 .navbar a, .navbar-brand {
@@ -401,6 +404,9 @@ a {
 @media only screen and (max-width: 991px) {
   .navbar-section {
     height: 5vh !important;
+    background-color: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
   }
   .hero-section {
     height: 100%;
