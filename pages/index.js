@@ -53,8 +53,7 @@ export default function Home() {
         <link rel="icon" href="/fav.ico" />
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-        <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
-        <Script src="https://code.jquery.com/jquery-3.6.3.min.js"></Script>
+        
 
         <link
           rel="stylesheet"
@@ -63,6 +62,12 @@ export default function Home() {
           crossorigin="anonymous"
         />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+        
+          
+      </Head>
+
+      <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></Script>
+        <Script src="https://code.jquery.com/jquery-3.6.3.min.js"></Script>
         <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></Script>
         <Script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></Script>
 
@@ -74,7 +79,6 @@ export default function Home() {
           src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
           crossorigin></Script>
           
-      </Head>
       <Layout>
       <div>
         <div className='hero-section'>

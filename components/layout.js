@@ -9,6 +9,7 @@ import {GrInstagram, GrMail} from "react-icons/gr"
 
 import $ from "jquery";
 import "animate.css/animate.min.css";
+import Link from 'next/link';
 
 const Layout = ({children}) => {
   const [navColor, setNavColor] = useState(false);
